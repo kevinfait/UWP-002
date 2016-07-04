@@ -1,0 +1,1 @@
+C:\git\UWP-002\HelloWorld\HelloWorld\HelloWorld.csproj;x86
