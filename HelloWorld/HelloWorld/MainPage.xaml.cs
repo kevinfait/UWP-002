@@ -29,7 +29,16 @@ namespace HelloWorld
 
         private void ClickMeButton_Click(object sender, RoutedEventArgs e)
         {
-            ResultTextBlock.Text = "Hello World";
+            /*
+            MessageTextBlock.Text = "What is XAML?";
+            */
+        }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            Button myButton = new Button();
+            myButton.Name = "ClickMeButton";
+            myButton.content
         }
     }
 }
